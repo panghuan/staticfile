@@ -1,0 +1,21 @@
+h1 {
+  margin: 2em 0 1em;
+}
+.post-content {
+  padding: 3rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.post-copyright {
+  margin-top: 0;
+  border-top: 0;
+}
+.post-content blockquote {
+  background-color: #fffbf0;
+  border-left: 3px solid #d1d9e0;
+}
+.post-content h1::before,
+.post-content h2::before,
+.post-content h3::before,
+.post-content h4::before {
+  color: #d1d9e0;
+}
