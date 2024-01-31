@@ -93,7 +93,7 @@ search.addWidgets([
   // virtualSearchBox({}),
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    placeholder: '查找菜品',
+    placeholder: '搜索食材',
     showReset: false,
     cssClasses: {
       form: 'MyCustomSearchBoxForm',
