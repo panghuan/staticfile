@@ -197,7 +197,7 @@ a {
   cursor: pointer;
 }
 a:hover {
-  color: #ef3982;
+  color: #2d96bd;
   text-decoration: none;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 }
@@ -632,7 +632,7 @@ header label {
   white-space: nowrap;
 }
 .archive-item-link:hover {
-  color: #ef3982;
+  color: #2d96bd;
   background-color: transparent;
 }
 .dark-theme .archive-item-link {
@@ -694,7 +694,7 @@ header label {
 .tag-cloud-tags a:active,
 .tag-cloud-tags a:focus,
 .tag-cloud-tags a:hover {
-  color: #ef3982;
+  color: #2d96bd;
   transform: scale(1.1);
 }
 .dark-theme .tag-cloud-tags a:active,
@@ -721,20 +721,17 @@ header label {
   margin: 1em 0 1em 0;
 }
 .post-wrap .post-header h1 {
-  margin: 0 !important;
+  margin: 0;
 }
 .post-wrap .post-title {
   font-size: 2em;
   line-height: 1.5em;
 }
-.post-wrap .post-meta {
-  color: rgba(85,85,85,0.529) !important;
-}
 .dark-theme .post-wrap .post-meta {
   color: #87878d !important;
 }
 .post-wrap .post-meta a {
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-wrap .post-meta a {
   color: #eee;
@@ -760,7 +757,7 @@ header label {
 .post-content h1::before {
   content: "#";
   margin-right: 5px;
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-content h1::before {
   color: #eee;
@@ -768,7 +765,7 @@ header label {
 .post-content h2::before {
   content: "#";
   margin-right: 5px;
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-content h2::before {
   color: #eee;
@@ -776,7 +773,7 @@ header label {
 .post-content h3::before {
   content: "|";
   margin-right: 5px;
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-content h3::before {
   color: #eee;
@@ -784,13 +781,13 @@ header label {
 .post-content h4::before {
   content: "*";
   margin-right: 5px;
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-content h4::before {
   color: #eee;
 }
 .post-content a {
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-content a {
   color: #eee;
@@ -857,7 +854,7 @@ header label {
   border-spacing: 0;
 }
 .post-content table thead {
-  background: #fac4d9;
+  background: #bce1ef;
 }
 .dark-theme .post-content table thead {
   background: #626262;
@@ -905,8 +902,8 @@ header label {
   padding: 1em 1.2em 1em 1.2em;
   position: relative;
   color: rgba(52,73,94,0.8);
-  background-color: #fdebf3;
-  border-left: 2px solid #ef3982;
+  background-color: #e9f5fa;
+  border-left: 2px solid #2d96bd;
 }
 .post-content blockquote p {
   margin: 0;
@@ -938,7 +935,7 @@ header label {
   border-bottom: 1px solid #e8e8e8;
 }
 .post-copyright a {
-  color: #161209;
+  color: #2d96bd;
 }
 .dark-theme .post-copyright a {
   color: #eee;
@@ -1108,7 +1105,7 @@ header label {
   background-color: #fff;
 }
 .post-toc .is-active-link::before {
-  background-color: #161209;
+  background-color: #2d96bd;
 }
 .post-toc .tocbot-list-menu {
   margin: 1rem 0.75rem;
@@ -1371,24 +1368,6 @@ header label {
 .post-content pre .javascript .function {
   color: #8959a8;
 }
-h1 {
-  margin: 2em 0 1em;
-}
-.post-content {
-  padding: 3rem 0;
-  border-bottom: 1px solid #e8e8e8;
-}
-.post-copyright {
-  margin-top: 0;
-  border-top: 0;
-}
-.post-content blockquote {
-  background-color: #fffbf0;
-  border-left: 3px solid #d1d9e0;
-}
-.post-content h1::before,
-.post-content h2::before,
-.post-content h3::before,
-.post-content h4::before {
-  color: #d1d9e0;
+html {
+  font-family: PingFang SC, 'Microsoft Jhenghei', Lantinghei SC, 'lanting', Seguo UI, Microsoft Yahei;
 }
