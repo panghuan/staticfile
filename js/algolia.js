@@ -126,24 +126,24 @@ search.addWidgets([
     templates: {
       item(hit, { html, components, sendEvent }) {
         return html`
-          <button class="daisy-card daisy-card-compact items-center shadow-xl" onClick="${(event) => {
+          <button class="card card-compact items-center shadow-xl" onClick="${(event) => {
             document.getElementById('my_modal_'+ hit.objectID).showModal();
             sendEvent('click', hit, '点开 '+hit.slug)
           }}">
             <figure>
               <img src="${hit.cover}" alt="${hit.slug}" />
             </figure>
-            <div class="daisy-card-body">
-              <h2 class="daisy-card-title text-center block text-base" onclick="my_modal_2.showModal()">${components.Highlight({ hit, attribute: 'slug' })}</h2>
+            <div class="card-body">
+              <h2 class="card-title text-center block text-base" onclick="my_modal_2.showModal()">${components.Highlight({ hit, attribute: 'slug' })}</h2>
             </div>
           </button>
-          <dialog id="my_modal_${hit.objectID}" class="daisy-modal">
-            <div class="daisy-modal-box w-10/12 max-w-5xl daisy-card lg:card-side">
+          <dialog id="my_modal_${hit.objectID}" class="modal">
+            <div class="modal-box w-10/12 max-w-5xl card lg:card-side">
               <figure>
                 <img src="${hit.cover}" alt="${hit.slug}" />
               </figure>
-              <div class="daisy-card-body">
-                <h2 class="daisy-card-title border-b-2 mb-4 w-fit border-info">${hit.slug}</h2>
+              <div class="card-body">
+                <h2 class="card-title border-b-2 mb-4 w-fit border-info">${hit.slug}</h2>
                 <h3 class="font-normal text-base text-info">食材</h3>
                 <p class="">${hit.foodstuffs}</p>
                 <h3 class="font-normal text-base text-info">配料</h3>
@@ -154,7 +154,7 @@ search.addWidgets([
                 <p class="">${hit.tips}</p>
               </div>
             </div>
-            <form method="dialog" class="daisy-modal-backdrop">
+            <form method="dialog" class="modal-backdrop">
               <button>close</button>
             </form>
           </dialog>
@@ -183,12 +183,12 @@ search.addWidgets([
   instantsearch.widgets.pagination({
     container: '#pagination',
     cssClasses: {
-      list: 'daisy-join',
+      list: 'join',
       item: [
-        'daisy-join-item',
-        'daisy-btn',
+        'join-item',
+        'btn',
       ],
-      selectedItem: 'daisy-btn-active',
+      selectedItem: 'btn-active',
     }
   }),
 ]);
