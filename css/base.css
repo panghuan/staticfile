@@ -1,10 +1,6 @@
 html {
   font-family: $font-family;
 }
-html::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
 html::-webkit-scrollbar-thumb {
   height: 40px;
   background-color: #eee;
