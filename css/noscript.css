@@ -21,3 +21,9 @@
 		transform: none;
 		opacity: 1;
 	}
+		font-size: 3em;
+		line-height: 4em;
+		text-align: center;
+		white-space: nowrap;
+		left: 0;
+	}
