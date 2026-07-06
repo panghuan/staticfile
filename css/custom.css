@@ -1,3 +1,4 @@
-html {
+.post-content blockquote {
+  font-style: normal;
   font-family: PingFang SC, 'Microsoft Jhenghei', Lantinghei SC, 'lanting', Seguo UI, Microsoft Yahei;
 }
